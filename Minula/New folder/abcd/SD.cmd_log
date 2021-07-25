@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "D:/New folder/assignment 2/Minula/New folder/abcd/SD.xst" -ofn "D:/New folder/assignment 2/Minula/New folder/abcd/SD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "SD.ngc" SD.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o SD_map.ncd SD.ngd SD.pcf 
+par -w -intstyle ise -ol high -t 1 SD_map.ncd SD.ncd SD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml SD.twx SD.ncd -o SD.twr SD.pcf 
+xst -intstyle ise -ifn "D:/New folder/assignment 2/Minula/New folder/abcd/SD.xst" -ofn "D:/New folder/assignment 2/Minula/New folder/abcd/SD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "SD.ngc" SD.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o SD_map.ncd SD.ngd SD.pcf 
+par -w -intstyle ise -ol high -t 1 SD_map.ncd SD.ncd SD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml SD.twx SD.ncd -o SD.twr SD.pcf 

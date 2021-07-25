@@ -1,0 +1,23 @@
+xst -intstyle ise -ifn "D:/New folder/assignment 2/Minula/New folder/vhdl/FSM.xst" -ofn "D:/New folder/assignment 2/Minula/New folder/vhdl/FSM.syr" 
+xst -intstyle ise -ifn "D:/New folder/assignment 2/Minula/New folder/vhdl/FSM.xst" -ofn "D:/New folder/assignment 2/Minula/New folder/vhdl/FSM.syr" 
+xst -intstyle ise -ifn "D:/New folder/assignment 2/Minula/New folder/vhdl/FSM.xst" -ofn "D:/New folder/assignment 2/Minula/New folder/vhdl/FSM.syr" 
+xst -intstyle ise -ifn "D:/New folder/assignment 2/Minula/New folder/vhdl/FSM.xst" -ofn "D:/New folder/assignment 2/Minula/New folder/vhdl/FSM.syr" 
+xst -intstyle ise -ifn "D:/New folder/assignment 2/Minula/New folder/vhdl/FSM.xst" -ofn "D:/New folder/assignment 2/Minula/New folder/vhdl/FSM.syr" 
+xst -intstyle ise -ifn "D:/New folder/assignment 2/Minula/New folder/vhdl/FSM.xst" -ofn "D:/New folder/assignment 2/Minula/New folder/vhdl/FSM.syr" 
+xst -intstyle ise -ifn "D:/New folder/assignment 2/Minula/New folder/vhdl/FSM.xst" -ofn "D:/New folder/assignment 2/Minula/New folder/vhdl/FSM.syr" 
+xst -intstyle ise -ifn "D:/New folder/assignment 2/Minula/New folder/vhdl/FSM.xst" -ofn "D:/New folder/assignment 2/Minula/New folder/vhdl/FSM.syr" 
+xst -intstyle ise -ifn "D:/New folder/assignment 2/Minula/New folder/vhdl/FSM.xst" -ofn "D:/New folder/assignment 2/Minula/New folder/vhdl/FSM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "FSM.ngc" FSM.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o FSM_map.ncd FSM.ngd FSM.pcf 
+par -w -intstyle ise -ol high -t 1 FSM_map.ncd FSM.ncd FSM.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml FSM.twx FSM.ncd -o FSM.twr FSM.pcf 
+xst -intstyle ise -ifn "D:/New folder/assignment 2/Minula/New folder/vhdl/FSM.xst" -ofn "D:/New folder/assignment 2/Minula/New folder/vhdl/FSM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "FSM.ngc" FSM.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o FSM_map.ncd FSM.ngd FSM.pcf 
+par -w -intstyle ise -ol high -t 1 FSM_map.ncd FSM.ncd FSM.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml FSM.twx FSM.ncd -o FSM.twr FSM.pcf 
+xst -intstyle ise -ifn "D:/New folder/assignment 2/Minula/New folder/vhdl/FSM.xst" -ofn "D:/New folder/assignment 2/Minula/New folder/vhdl/FSM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "FSM.ngc" FSM.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o FSM_map.ncd FSM.ngd FSM.pcf 
+par -w -intstyle ise -ol high -t 1 FSM_map.ncd FSM.ncd FSM.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml FSM.twx FSM.ncd -o FSM.twr FSM.pcf 

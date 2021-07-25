@@ -1,0 +1,7 @@
+V3 3
+FL "D:/New folder/assignment 2/Minula/New folder/abcd/abcd.vhd" 2021/01/09.19:04:13 P.68d
+EN work/FSM 1610199255 \
+      FL "D:/New folder/assignment 2/Minula/New folder/abcd/abcd.vhd" \
+      PB ieee/std_logic_1164 1370735607
+AR work/FSM/behavior 1610199256 \
+      FL "D:/New folder/assignment 2/Minula/New folder/abcd/abcd.vhd" EN work/FSM 1610199255

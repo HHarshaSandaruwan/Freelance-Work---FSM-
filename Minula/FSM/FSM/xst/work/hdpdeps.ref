@@ -1,0 +1,7 @@
+V3 4
+FL "D:/DMU/assignment 2/Minula/FSM/FSM/FSM.vhd" 2021/01/13.14:51:05 P.68d
+EN work/FSM 1610529668 FL "D:/DMU/assignment 2/Minula/FSM/FSM/FSM.vhd" \
+      PB ieee/std_logic_1164 1370735607 PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/FSM/Behavioral 1610529669 \
+      FL "D:/DMU/assignment 2/Minula/FSM/FSM/FSM.vhd" EN work/FSM 1610529668
+FL "D:/New folder/assignment 2/Minula/FSM/FSM/FSM.vhd" 2021/01/10.13:41:05 P.68d

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/New folder/assignment 2/Minula/Copy of FSM/FSM/tb_FSM_isim_beh.exe" -prj "D:/New folder/assignment 2/Minula/Copy of FSM/FSM/tb_FSM_beh.prj" "work.tb_FSM" 

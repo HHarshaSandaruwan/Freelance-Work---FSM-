@@ -1,0 +1,22 @@
+Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o D:/DMU/assignment 2/Minula/FSM/FSM/FSM_TB_isim_beh.exe -prj D:/DMU/assignment 2/Minula/FSM/FSM/FSM_TB_beh.prj work.FSM_TB 
+ISim P.68d (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/DMU/assignment 2/Minula/FSM/FSM/FSM.vhd" into library work
+Parsing VHDL file "D:/DMU/assignment 2/Minula/FSM/FSM/FSM_TB.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity FSM [fsm_default]
+Compiling architecture behavior of entity fsm_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\FSM_TB_isim_beh.exe.sim\libPortability.dll".
+Compiled 7 VHDL Units
+Built simulation executable D:/DMU/assignment 2/Minula/FSM/FSM/FSM_TB_isim_beh.exe
+Fuse Memory Usage: 33292 KB
+Fuse CPU Usage: 546 ms

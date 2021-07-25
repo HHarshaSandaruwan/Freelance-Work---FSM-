@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/DMU/assignment 2/Minula/FSM/FSM/FSM_TB_isim_beh.exe" -prj "D:/DMU/assignment 2/Minula/FSM/FSM/FSM_TB_beh.prj" "work.FSM_TB" 
